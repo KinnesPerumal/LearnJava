@@ -20,4 +20,62 @@ Input:
 Output 
 3 -1 2 0 
 ------------------------------------------------------------------
-3.
+3. Given house number, H, street name S and City C write a java program to print the address in the following format. 
+House Number : H 
+Street Name : S 
+City : C 
+ 
+Input Format: 
+First line of input contains H, S and C separated by comma.  
+Output Format: 
+House Number : H 
+Street Name : S 
+City : C 
+ 
+Sample Input and Output: 
+Input: 
+1224, Mark’s Avenue , Canberra 
+Output: 
+House Number : H1224 
+Street Name : Mark’s Avenue 
+City : Canberra 
+------------------------------------------------------------------
+4. Given the name of the customer, X, the mobile number M, billing address A, number of items I and cost of each item C, write a java program to print the bill.  
+Bill Amount =  I * C  
+Constraints: 
+5 < length of(X) < 50 
+Number of digits (M) is 10 
+10 < length of(A) < 100 
+1 < I < 100
+.05 < C < 299.99 
+Input Format: 
+The first line contains X, M, A, I and C separated by comma. 
+Output Format:  
+Name:<Name of the customer, X>, Mobile:<Mobile Number, M>, Address:<Address, A>, Items:<Number of Items, I>, Bill Amount:<Bill Amount> 
+Sample Input: 
+Harry,9988113322,3rd Cross-Down South-CA,3,2.5 
+Sample Output: Given the name of the customer, X, the mobile number M, billing address A, number of items I and cost of each item C, write a java program to print the bill.  
+Bill Amount =  I * C  
+Constraints: 
+5 < length of(X) < 50 
+Number of digits (M) is 10 
+10 < length of(A) < 100 
+1 < I < 100 
+.05 < C < 299.99 
+Input Format: 
+The first line contains X, M, A, I and C separated by comma. 
+Output Format:  
+Name:<Name of the customer, X>, Mobile:<Mobile Number, M>, Address:<Address, A>, Items:<Number of Items, I>, Bill Amount:<Bill Amount> 
+Sample Input: 
+Harry,9988113322,3rd Cross-Down South-CA,3,2.5 
+Sample Output: 
+Name :  Harry, Mobile :  9988113322, Address :  3rd Cross-Down South-CA, Items :  3, Bill Amount :  $7.5 
+
+
+Name :  Harry, Mobile :  9988113322, Address :  3rd Cross-Down South-CA, Items :  3, Bill Amount :  $7.5
+------------------------------------------------------------------
+
+
+
+
+
