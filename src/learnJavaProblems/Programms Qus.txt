@@ -1,0 +1,23 @@
+
+1. Write a java program to print “Hello World” message
+------------------------------------------------------------------
+2. Given 2 numbers N1, N2, Write a Java program to print the following 
+1.	Sum of N1 and N2 
+2.	Difference of N1 and N2 
+3.	Product of N1 and N2 
+4.	Quotient obtained by dividing N1 by N2 
+Constraints: 
+1 <= N1 <= 106 
+1 <= N2 <= 106 
+Input Format: 
+First line of the input contains N1 and N2 separated by ‘,’ 
+Output Format: 
+Print the output in the following format each arithmetic operation separated by a space.
+Sum   Difference   Product   Quotient 
+Sample Input & Output 
+Input: 
+1,2 
+Output 
+3 -1 2 0 
+------------------------------------------------------------------
+3.

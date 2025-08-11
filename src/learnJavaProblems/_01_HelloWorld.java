@@ -1,4 +1,7 @@
 package learnJavaProblems;
+/*
+ * Write a java program to print “Hello World” message
+ * */
 
 class utility {
 	public static void printMessage() {
