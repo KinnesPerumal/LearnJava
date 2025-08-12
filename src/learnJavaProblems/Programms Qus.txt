@@ -74,6 +74,140 @@ Name :  Harry, Mobile :  9988113322, Address :  3rd Cross-Down South-CA, Items :
 
 Name :  Harry, Mobile :  9988113322, Address :  3rd Cross-Down South-CA, Items :  3, Bill Amount :  $7.5
 ------------------------------------------------------------------
+5. Given 2 complex numbers C1 (R1,I1) and C2 (R2,I2), Write a java program to find the sum of C1 and C2. 
+Constraints: 
+-106 <= R1 and R2 <= 106                                 3.4E +/- 38 (7 digits) Range for complex nos float datatype 
+-106  <= I2 and I2<= 106 
+Input Format: 
+First line of the input contains R1, I1 and R2, I2 separated by ‘,’ 
+Output Format: 
+Print the output in the following format 
+Real part + (Imaginary part) i  
+Sample Input & Output 
+Input: 
+4.4, 2, 3, 7.6 
+Output 
+7.4 + 9.6i
+------------------------------------------------------------------
+6. Given 2 numbers N1, N2. Write a Java program to swap the two number without using temporary variable. (Hint: Use a bitwise XOR operator) 
+ 
+Constraints:  
+1 <= N1 <= 106 
+1 <= N2 <= 106 
+ 
+Input Format:  
+First line of the input contains N1 and N2 separated by ‘,’  
+ 
+Output Format:  
+Swapped numbers 
+ 
+Sample Input & Output  
+Input:  
+33, 66 
+Output  
+66, 33
+------------------------------------------------------------------
+7. Given a number N, write a program to multiply and divide the number by 2 using bitwise operator.  
+Constraints: 
+1 <= N <= 105 
+Input Format: 
+First line contains the number N  
+Output Format: 
+Product and quotient separated by comma 
+Sample Input & Output: 
+Input: 
+10 
+Output: 
+20,5
+------------------------------------------------------------------
+8. Given a number, write a program to print the number of digits. 
+Constraints: 
+1 <= N <= 106 
+Input Format: 
+First line contains the number N 
+Output Format: 
+Number of digits 
+Sample Input & Output: 
+Input: 
+5 
+Output: 
+1 
+------------------------------------------------------------------
+9. Given Basic Salary B, Transport Allowance T and House Allowance H.  
+Write a java program to print the net salary N.  
+ 
+G = B + T + H 
+N =  {G – ( 8.2% of G)} if G is above 55,000  
+  
+Constraints:  
+1 <= B <= 106 
+1 <= T <= 106 
+1 <= H <= 106 
+ 
+Input Format:  
+First line of the input contains B, T and H separated by ‘,’  
+ 
+Output Format:  
+ Net Salary N 
+ 
+Sample Input & Output  
+Input:  
+60000,2000,5000 
+Output  
+61506.0 
+------------------------------------------------------------------
+10. Given three numbers N1, N2 and N3 wirte a java program to print the greatest of 3.
+ 
+Constraints:
+-1 < N1 <  106
+-1 < N2 <  106
+-1 < N3 <  106
+Assumptions:
+N1 ≠ N2  ≠ N3
+Input Format:
+First line of the input contains N1, N2 and N3 seperated by comma
+Output Format:
+Greatest of three numbers
+Sample Input and Output:
+Input    : 10, 300, 200 
+Output :  300
+------------------------------------------------------------------
+11. Given an alphabetic character C. Find the error and correct the java program to find if character is a vowel or not.  
+Vowels in English are ‘a’, ‘e’, ‘i’, ‘o’ and ‘u’. 
+  
+Constraints:  
+ C: a to z  (lowercase only)  
+  
+Input Format:  
+First line of the input contains character C  
+ 
+Output Format:  
+Vowel 
+  
+Sample Input & Output  
+Input:  
+e 
+Output  
+Vowel 
+ 
+Input:  
+t 
+Output  
+NOT a vowel 
+------------------------------------------------------------------
+
+
+ 
+
+
+
+
+
+
+
+
+	 
+
 
 
 
