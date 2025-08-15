@@ -195,6 +195,334 @@ t
 Output  
 NOT a vowel 
 ------------------------------------------------------------------
+12. Given two numbers N and M. Find the error and correct the java program to find if N is a multiple of M.  
+ Hint: By dividing N by M the remainder should be 0 
+ 
+Constraints:  
+1 <= N <= 106 
+1 <= M <= 106 
+  
+Input Format:  
+First line of the input contains N and M separated by ‘,’  
+  
+Output Format:  
+Is a multiple  
+  
+Sample Input & Output  
+Input:  66, 33 
+Output  
+Is a multiple 
+------------------------------------------------------------------
+13. Given the income N. Write a java program to find if the income category is eligible for loan service.  
+ Hint:  If income => 40000, then eligible for loan; otherwise, non-eligible 
+ 
+Constraints:  
+1 <= N <= 106 
+  
+Input Format:  
+First line of the input contains N 
+  
+Output Format:  
+ Eligible or Non-Eligible
+  
+Sample Input & Output :
+Input: 42000 
+Output: Eligible 
+ 
+Input:  34000 
+Output: Non-Eligible 
+------------------------------------------------------------------
+14. Given the number N. Write a program to verify if N is a valid mobile number and print true  
+otherwise, false 
+Valid mobile should have 10 digits 
+ 
+Constraints:  
+1 <= N <= 1010
+  
+Input Format:  
+First line of the input contains N 
+  
+Output Format:  
+ boolean
+ 
+Sample Input & Output  
+Input:  9009009001 
+Output: true 
+ 
+Input: 34000 
+Output: false 
+------------------------------------------------------------------
+15. Given the age A. Write a java program to find if the given age A is eligible to vote or not.  
+ Hint:  The minimum age to vote is 18 years 
+ 
+Constraints:  
+1 <= A <= 102
+  
+Input Format:  
+First line of the input contains A 
+  
+Output Format:  
+Eligible or Non-Eligible
+  
+Sample Input & Output  
+Input: 43 
+Output: Eligible 
+Input: 16 
+Output: Non-Eligible 
+------------------------------------------------------------------
+16. Given Basic Salary B, Transport Allowance T, House Allowance H,  
+write a java program to print the gross G and net salary N.  
+ 
+G = B + T + H 
+N = G – (G * Tax%) 
+ 
+8.2% Tax is levied if the gross is more than $55000 ; 4% otherwise 
+ 
+Constraints:  
+1 <= B <= 106 
+1 <= T <= 106 
+1 <= H <= 106 
+ 
+Input Format: 
+First line contains B, T and H separated by ‘,’ 
+ 
+Output Format: 
+Net Salary 
+ 
+Sample Input: 
+400002000,5000 
+Output: 
+45120.0 
+------------------------------------------------------------------
+17. Given a decimal number N, write a java program to find out the ceil value of N.  
+ 
+Constraints: 
+1 < N <  106 
+Input Format: 
+First line contains the number N 
+Output Format: 
+Ceil value of the number N 
+Sample Input & Output: 
+Input: 
+1.0 
+Output: 
+1 
+Input: 
+1.3 
+Output: 
+2 
+------------------------------------------------------------------
+18. Given the number of available $5 coins, X, the number of available $1 coins, Y and the amount Z, write a java program to print the minimum number of $5 and $1 coins needed to provide exact change. Print “NP” if exact change cannot be made. 
+  
+Constraints: 
+-1 < X <= 100 
+-1 < Y <= 100 
+-1 < Z <= 600 
+ 
+Input Format: 
+First line contains X,Y,Z 
+Output Format: 
+number of $1 coins and number of $5 coins separated by ‘and’ 
+ 
+Sample Input & Output: 
+Input: 4,12,21  
+Output: 1 and 4 
+ 
+Input X = 3,3,19 
+Output: NP 
+------------------------------------------------------------------
+19. Given a number N. Find the error and correct the java program to find if the given number is odd or even.  
+  
+Constraints:  
+1 <= N <= 106 
+  
+Input Format:  
+First line of the input contains number N  
+ 
+Output Format:  
+Odd or Even 
+  
+Sample Input & Output  
+Input: 28 
+Output: Even 
+ 
+Input: 11 
+Output: Odd 
+------------------------------------------------------------------
+20. Given a day of the week D. Find the error and correct the java program to find if given day is a weekday or weekend.  
+ Hint: Sat and Sun are weekend and other days are weekdays 
+ 
+Constraints:  
+D: Monday - Sunday 
+  
+Input Format:  
+First line of the input contains the day D 
+  
+Output Format:  
+Weekday/Weekend 
+  
+Sample Input & Output :
+Input: Saturday 
+Output: Weekend 
+ 
+Input: Monday 
+Output: Weekday 
+------------------------------------------------------------------
+21. Given an alphabetic character A. Write a java program to find if character is uppercase or lowercase.  
+ 
+Constraints:  
+ A: A to Z or a to z 
+  
+Input Format:  
+First line of the input contains character A  
+ 
+Output Format:  
+Uppercase/Lowercase 
+  
+Sample Input & Output : 
+Input: E 
+Output: Uppercase 
+ 
+Input: t 
+Output: Lowercase 
+------------------------------------------------------------------
+22. Given the individual’s income N. Write a java program to find if the income category is above or below poverty line.  
+ Hint:  If income > $6250, then individual is above poverty line; otherwise below poverty line 
+ 
+Constraints:  
+1 <= N <= 106 
+  
+Input Format:  
+First line of the input contains N 
+  
+Output Format:  
+ Above/Below poverty line 
+  
+Sample Input & Output  
+Input:  42000 
+Output: Above poverty line 
+ 
+Input: 3200 
+Output: Below poverty line 
+------------------------------------------------------------------
+23. Given the cost price CP and selling price SP. Write a java program to calculate profit or loss 
+ Hint: For profit the selling price should be more than cost price 
+ 
+Constraints:  
+1 <= CP <= 106
+1 <= SP <= 106
+ 
+Input Format:  
+First line of the input contains CP and SP separated by ‘,’  
+  
+Output Format:  
+Profit/Loss 
+  
+Sample Input & Output:
+Input: 63,50 
+Output: Loss 
+ 
+Input:  63,65 
+Output: Profit
+------------------------------------------------------------------
+24. Given a number N. Write a java program to find if the given number N is positive or negative.  
+  
+Constraints:  
+-106 <= N <= 106
+  
+Input Format:  
+First line of the input contains number N  
+ 
+Output Format:  
+Positive/Negative 
+  
+Sample Input & Output :
+Input: 28 
+Output: Positive 
+ 	
+Input: -11 
+Output: Negative 
+------------------------------------------------------------------
+25. Given Basic Salary B, Transport Allowance T, House Allowance H,  
+write a java program to print the gross G and net salary N.  
+ 
+G = B + T + H 
+N = G – (G * Tax%) 
+ 
+0.3% tax is levied on gross salary above $5000 
+0.2% tax is levied on gross salary between [$1000 and $5000] 
+0.1% tax is levied on gross salary less than $1000 
+ 
+Constraints:  
+1 <= B <= 106 
+1 <= T <= 106 
+1 <= H <= 106 
+ 
+Input Format: 
+First line contains B, T and H separated by ‘,’ 
+ 
+Output Format: 
+Net Salary 
+ 
+Sample Input: 
+40000,2000,500
+Output: 
+29750.0
+------------------------------------------------------------------
+26. Given a year, Y as an input, write a program to check if Y is a leap year or not. 
+Y is a leap year if it satisfies any one of the following conditions: 
+1.	Y is multiple of 4 and not a multiple of 100. 
+2.	Y is multiple of 400. 
+ 
+Constraints 
+       0 < year <=2500 
+Input Format  
+       First line contains Y 
+Output Format 
+       True if Y is a leap year, False otherwise. 
+Sample Input: 
+Input: 2000 
+Input: 1800 
+Sample Output: 
+Output: True 
+Output: False 
+------------------------------------------------------------------
+27. Given 3 sides of a triangle X, Y and Z as Input, write a program to print the type of the triangle. Types are – “Equilateral”, “Isosceles” or “Scalene”. Print “NA” if the triangle cannot be formed with the given sides.  
+ 
+Triangle Inequality Theorem: “Any side of a triangle must be shorter than the other two sides added together 
+Equilateral Triangle: all three sides are equal 
+Isosceles Triangle: any two sides are equal 
+Scalene Triangle: All three sides are unequal 
+Constraints 
+0 < X < 1000  
+0 < Y < 1000  
+0 < Z < 1000  
+Input Format  
+First line contains X,Y,Z 
+Output Format 
+Type of the triangle. “NA” if triangle cannot be formed. 
+Sample Input: 
+Input: 10,15,15 
+ Output:  
+Isosceles 
+Output:  
+Isosceles 
+------------------------------------------------------------------
+28. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
