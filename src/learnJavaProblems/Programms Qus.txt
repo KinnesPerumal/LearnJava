@@ -508,7 +508,414 @@ Isosceles
 Output:  
 Isosceles 
 ------------------------------------------------------------------
-28. 
+28. Given the marks obtained M and total marks T. Find the error and correct the java program to find the grade of a student.  
+Category: Below 25 - F 
+ 25 to 45 - E 
+ 45 to 50 - D 
+ 50 to 60 - C 
+ 60 to 80 - B 
+ Above 80 - A  
+ 
+Constraints:  
+1 <= M <= 106
+1 <= T <= 106
+  
+Input Format:  
+First line of the input contains marks obtained M and total marks T separated by ‘,’ 
+  
+Output Format:  
+Grade  
+  
+Sample Input & Output  
+Input: 98,100 
+Output: A 
+Input: 337,850 
+Output: E 
+------------------------------------------------------------------
+29. Given the number of kilometers K. Write a java program to find the bus fare to be paid.  
+Category:         5KM:    $1 
+                     5-10KM:   $2 
+                   10-30KM:   $5 
+                   30-50KM:   $8 
+                   50-80KM:   $15 
+                   80-100KM: $30 
+ 
+Constraints:  
+1 <= K <= 106
+  
+Input Format:  
+First line of the input contains the kilometers K 
+  
+Output Format:  
+Price in $  
+  
+Sample Input & Output:  
+Input: 45 
+Output:  $8 
+Input: 87 
+Output: $30 
+------------------------------------------------------------------
+30. Given the performance index I. Write a java program to find the bonus of an employee.  
+Performance Index: A: $5000 
+B: $4500 
+C: $3000 
+D: $1500 
+E: $500 
+Constraints:  
+I: A, B, C, D, and E 
+  
+Input Format:  
+First line of the input contains the performance index I 
+  
+Output Format:  
+Bonus in $  
+  
+Sample Input & Output:  
+Input: A 
+Output: 5000 
+Input: D 
+Output: 1500 
+------------------------------------------------------------------
+31. Given the number of metered units U, write a java program to calculate the electricity bill amount, B. 
+1 to 25 units - $ 1.25 per unit 
+26 to 50 units  - $ 1.45 per unit 
+51 to 75 units - $ 1.65 per unit 
+76 to 95 units - $ 1.95 per unit 
+Above 95 units - $ 2.00 per unit 
+ 
+Constraints:  
+0 < U <  106
+Input Format:  
+First line contains the number of metered units, U  
+Output Format:  
+$ Bill
+Sample Input & Output:  
+Input:  1 
+Output:  $ 1.25
+Input:  100
+Output:  $ 200.0
+------------------------------------------------------------------
+32. Given number of lines N, write a program to print a "*" at the beginning of each line.
+------------------------------------------------------------------
+33. Given the number N. Write a Java program to find the sum of N numbers. 
+ 
+Constraints:  
+1 <= N <= 106
+  
+Input Format:  
+First line of the input contains N. 
+  
+Output Format:  
+Print the sum. 
+  
+Sample Input & Output:  
+Input: 100 
+Output: 5050 
+------------------------------------------------------------------
+34. Given a number N. Write a Java program to print the first N natural numbers. 
+  
+Constraints:  
+1 <= N <= 106 
+  
+Input Format:  
+First line of the input contains N. 
+  
+Output Format:  
+Sequence of N natural numbers 
+  
+Sample Input & Output  
+Input:  
+7 
+Output  
+1 2 3 4 5 6 7  
+------------------------------------------------------------------
+35. Given a number N. Write a Java program to calculate the sum of the digits of the number N and print the sum as the output. 
+  
+Constraints:  
+1 <= N <= 106 
+  
+Input Format:  
+First line of the input contains N. 
+  
+Output Format:  
+Sum of the digits of N 
+  
+Sample Input & Output  
+Input:  
+12340 
+Output  
+10 
+ 
+Explaination:
+12340 = 1+2+3+4+0 = Sum of digits is 10
+------------------------------------------------------------------------------------------------------------
+36. Given a number N. Write a Java program to compute the factorial of the number N and print the result as output  
+ 
+Constraints:  
+1 <= N <= 106 
+  
+Input Format:  
+First line of the input contains N. 
+  
+Output Format:  
+Factorial of N 
+  
+Sample Input & Output  
+Input:  
+5  
+Output  
+120 
+------------------------------------------------------------------------------------------------------------
+37. Given the number of terms of series N. Write a Java program to print the Fibonacci series of N. 
+ 
+Constraints:  
+1 <= N <= 106 
+  
+Input Format:  
+First line of the input contains N. 
+  
+Output Format:  
+Print the Fibonacci series 
+  
+Sample Input & Output  
+Input:  
+8 
+Output  
+0 1 1 2 3 5 8 13 
+ 
+Explaination:
+n =	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	...
+xn =	0	1	1	2	3	5	8	13	21	34	55	89	144	233	377	...
+------------------------------------------------------------------------------------------------------------
+38. Given 2 numbers X, Y. Write a Java program to find the X to the power of Y without using java library functions. The java code is already developed and while testing the tester found a bug in the code.  Debug the code and fix the issues. 
+ 
+Constraints:  
+1 <= N <= 103 
+  
+Input Format:  
+First line of the input contains X,Y 
+  
+Output Format:  
+Power of X to the power of Y 
+  
+Sample Input & Output:  
+Input: 3,4  
+Output: 81 
+------------------------------------------------------------------------------------------------------------
+39. Given the number N. Write a Java program to find if the given number is an Armstrong number or not. 
+If sum of cubes of each digit of the number is equal to the number itself, then the number is called an Armstrong number. 
+For example, 153 = (1 * 1 * 1) + (5 * 5 * 5) + (3 * 3 * 3)    
+ 
+Constraints:  
+1 <= N <= 106 
+  
+Input Format:  
+First line of the input contains N. 
+  
+Output Format:  
+true if Armstrong number, false otherwise.  
+ 
+Sample Input & Output: 
+Input: 371 
+Output: true 
+------------------------------------------------------------------------------------------------------------
+40. Given 2 numbers N1 and N2. Write a Java program to find the greatest common divisor (GCD)or HCF of two numbers and print the result as output  
+ 
+Constraints:  
+1 <= N1 <= 106 
+1 <= N2 <= 106 
+  
+Input Format:  
+First line of the input contains N1 and N2 separated by ‘,’ 
+  
+Output Format:  
+GCD of two numbers 
+  
+Sample Input & Output  
+Input:  
+22,55  
+Output  
+11 
+------------------------------------------------------------------------------------------------------------
+41. Given a number N, write a Java program to display the multiplication table of N up to 10. The java code is already developed and while testing the tester found a bug in the code.  Debug the code and fix the issues. 
+ 
+Constraints:  
+1 <= N <= 103 
+  
+Input Format:  
+First line of the input contains N 
+  
+Output Format:  
+Display the multiplication table 
+ 
+Sample Input & Output:  
+Input: 6 
+Output:  
+1 X 6 = 6 
+2 X 6 = 12 
+3 X 6 = 18 
+4 X 6 = 24 
+5 X 6 = 30 
+6 X 6 = 36 
+7 X 6 = 42 
+8 X 6 = 48 
+9 X 6 = 54 
+10 X 6 = 60
+------------------------------------------------------------------------------------------------------------
+42. Given the number of rows R. Write a Java program to display the triangle (right-angle triangle) for the given number of rows R.  
+Example:   3 rows -->  * 
+                                       *   * 
+                                       *   *   * 
+    
+Constraints:  
+1 <= R <= 106 
+  
+Input Format:  
+First line of the input contains R 
+  
+Output Format:  
+Display the triangle. 
+  
+Sample Input & Output  
+Input:  
+5 
+Output  
+*  
+* *  
+* * *  
+* * * *  
+* * * * * 
+ 
+Hint: Used a nested loop to generate the pattern for rows and columns
+------------------------------------------------------------------------------------------------------------
+43. Given the number of rows R. Write a Java program to display the Floyd’s Triangle for the given number of rows R.  
+Example:   3 rows -->  1 
+                                       2 3 
+                                       4 5 6 
+    
+Constraints:  
+1 <= R <= 106 
+  
+Input Format:  
+First line of the input contains R. 
+  
+Output Format:  
+Display the triangle. 
+  
+Sample Input & Output  
+Input:  
+5 
+Output  
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+11 12 13 14 15
+------------------------------------------------------------------------------------------------------------
+44. Given a number N, write a Java program to display a triangle with N number of “*” width and N number of “*” height. The java code is already developed and while testing the tester found a bug in the code.  Debug the code and fix the issues. 
+ 
+Constraints:  
+3 <= N <= 20 
+ 
+Input Format:  
+First line of the input contains N 
+  
+Output Format:  
+Display the Triangle 
+ 
+Sample Input & Output : 
+Input:  5 
+Output  
+        *  
+      * *  
+    * * *  
+  * * * *  
+* * * * *  
+------------------------------------------------------------------------------------------------------------
+45. Given number of rows R. Write a Java program to display the pyramid for the given number of rows R.  
+Example:   3 rows -->         
+                *  
+             *  *  *  
+          *  *  *  *  * 
+Constraints:  
+1 <= R <= 106 
+  
+Input Format:  
+First line of the input contains R. 
+  
+Output Format:  
+Display the pyramid. 
+  
+Sample Input & Output :  
+Input:  5 
+Output  
+            *  
+         *  *  *  
+      *  *  *  *  *  
+   *  *  *  *  *  *  *  
+*  *  *  *  *  *  *  *  * 
+------------------------------------------------------------------------------------------------------------
+46. Given a number N, write a Java program to display an equilateral triangle with a number pattern. The java code is already developed and while testing the tester found that, the program is not displaying proper triangle if the value of N is a 2-digit number like 11. Modify the code to display a proper triangle if the value of N is a 2-digit number. 
+ 
+Constraints:  
+3 <= N <= 15 
+ 
+Input Format:  
+First line of the input contains N 
+  
+Output Format:  
+Display the Triangle 
+ 
+Sample Input & Output:  
+Input:  
+5 
+Output  
+         1          
+       2 2 2        
+    3 3 3 3 3      
+  4 4 4 4 4 4 4    
+5 5 5 5 5 5 5 5 5 
+------------------------------------------------------------------------------------------------------------
+47. Given number of rows R. Write a Java program to display the number pyramid for the given number of rows R.  
+Example:   3 rows -->              
+                                          1  
+                                        2 3 2  
+                                      3 4 5 4 3 
+ 
+Constraints:  
+1 <= R <= 106
+  
+Input Format:  
+First line of the input contains R. 
+  
+Output Format:  
+Display the pyramid. 
+  
+Sample Input & Output:  
+Input: 5 
+Output  
+        1  
+      2 3 2  
+    3 4 5 4 3  
+  4 5 6 7 6 5 4  
+5 6 7 8 9 8 7 6 5 
+------------------------------------------------------------------------------------------------------------
+48. 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
 
 
 

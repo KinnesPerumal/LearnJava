@@ -5,10 +5,12 @@ import java.util.Scanner;
 class PositiveorNegative{
 	public String posOrNeg(int n) {
 		String status = null;
-		if(Integer.MAX_VALUE>=n && n>=0) {
+		if(Integer.MAX_VALUE>=n && n>0) {
 			status = "Positive";			
 		}else if(Integer.MIN_VALUE<n && n<0) {
 			status = "Negative";
+		}else {
+			status = "Neatural";
 		}
 		return status;
 	}
