@@ -900,7 +900,202 @@ Output
   4 5 6 7 6 5 4  
 5 6 7 8 9 8 7 6 5 
 ------------------------------------------------------------------------------------------------------------
-48. 
+48. Given a String data and an integer number key K, write a java program to encrypt the data using the key and decrypt the encrypted data using the same key. The data will contain only alphabets, numbers and space. The key is a 3-digit number and each digit should be between 1 to 7 (both inclusive).  Encryption rules. 
+First digit: Reduce the ASCII values of all the Upper-case characters in the data by first digit of the key. 
+Second digit: Reduce the ASCII values of all the Lower-case characters in the data by second digit of the key.  
+Third Digit:  Reduce the ASCII values of all the numeric characters in the data by third digit of the key. 
+Do not encrypt the Space character.  
+Based on the Encryption rule, you can identify the rules for Decryption as well. 
+Constraints: 
+111<= K <=777 
+Data is a string with only alphabets, numbers and spaces. 
+Input Format: 
+First line contains the String data D and number key K separated by ‘,’ 
+Output Format: 
+Encrypted data, Decrypted data 
+Sample Input & Output: 
+Input: 
+Amazing Num192,345 
+Output: 
+>i]vejc Kqi,4-,Amazing Num192 
+Input: 
+Amazon S3,777 
+Output: 
+:fZshg L,,Amazon S3 
+------------------------------------------------------------------------------------------------------------
+49. Given the number of terms of series N. Write a Java program to calculate the sum of the series. 
+Example: For N -> 1 + 1/2 + 1/3 + 1/4 + 1/5 +…………1/N 
+ 
+Constraints:  
+1 <= N <= 106 
+  
+Input Format:  
+First line of the input contains N. 
+  
+Output Format:  
+Sum of series
+  
+Sample Input & Output  
+Input:  
+4 
+Output  
+2.083333333333333 
+------------------------------------------------------------------------------------------------------------
+50. Given a number N, write a Java program to display the reverse of the number N. The java code is already developed and while testing the tester found that, the program is not displaying the reverse of given number N, it has an extra digit at the beginning. Modify the code and fix the issues. 
+ 
+Constraints:  
+1 <= N <= 106 
+ 
+Input Format:  
+First line of the input contains N 
+  
+Output Format:  
+Reverse of the number N 
+ 
+Sample Input & Output:  
+Input:  87654 
+Output: 45678 
+------------------------------------------------------------------------------------------------------------
+51. Given a number N. Write a Java program to check if the number N is prime or not. 
+ 
+Constraints:  
+2 <= N <= 106 
+(Since 1 is neither prime nor composite) 
+ 
+Input Format:  
+First line of the input contains N. 
+  
+Output Format:  
+True if prime, otherwise false. 
+  
+Sample Input & Output  
+Input:  
+43 
+Output  
+true 
+Input:  
+24 
+Output  
+false 
+------------------------------------------------------------------------------------------------------------
+52. Given a positive number N, write a java program to remove the even digits from the number. Print 0 if the input number has all digits even.  
+Constraints: 
+1 <= N <= 106 
+Input Format: 
+First line contains the number N 
+Output Format: 
+Generated number 
+Sample Input & Output: 
+Input: 
+1234 
+Output: 
+13 
+Input: 
+1133 
+Output: 
+1133 
+------------------------------------------------------------------------------------------------------------
+53. Given 2 positive numbers, N1 and N2 write a java program to check they are amicable numbers.  
+Constraints: 
+1 <= N1 <= 106 
+1  <= N2 <= 106 
+N1 ≠ N2 
+Hint: Amicable numbers are two different numbers so related that sum of the proper divisors of each is equal to the other number.  
+ 
+Input Format: 
+First line contains the numbers N1 and N2 separated by comma 
+ 
+Output Format: 
+Print true if numbers are amicable ;else  false if they are not amicable 
+ 
+Sample Input & Output: 
+Input: 
+220,284 
+Output: 
+true 
+Input: 
+123,233 
+Output: 
+false 
+------------------------------------------------------------------------------------------------------------
+54. Given N numbers, write a java program to find the sum. 
+Constraints: 
+1 <= N <= 106 
+Input Format: 
+First line contains N numbers separated by comma 
+Output Format: 
+sum 
+Sample Input & Output: 
+Input: 
+8,3,8,2,1 
+Output: 
+22 
+Input: 
+30,70 
+Output: 
+100 
+------------------------------------------------------------------------------------------------------------
+55. Given an array of numbers A, number of elements N, and number to be searched, S, write a java program to check if S is present in A. Print True if present, False otherwise 
+Constraints: 
+1 <= N <= 106 
+1 <= S <= 106 
+-106 <= Ai <= 106 
+0 <= i <= (N-1) 
+Input Format: 
+First line contains N, S and array of elements separated by #. Array elements are separated by ‘,’ 
+Output Format: 
+True if S is present in A; False otherwise 
+Sample Input & Output: 
+Input: 
+5#101#4,0,-10,101,89009 
+Output: 
+True 
+------------------------------------------------------------------------------------------------------------
+56. Given an Array A of N numbers, Write a program to print the number of odd numbers. 
+Constraints: 
+1 <= N <= 106  
+1 <= Ai <= 106  
+0 <= i <= (N-1) 
+Input Format: 
+First line contains N numbers separated by comma 
+Output Format: 
+Count of odd numbers 
+Sample Input & Output: 
+Input: 
+16,3,8,2,1 
+Output: 
+2 
+------------------------------------------------------------------------------------------------------------
+57. Given an array A of 0s and 1s representing the state of flipflops, write a program to segregate 1s to the left side of the array and 0s to the right side of the array.  
+Constraints: 
+1 <= N <= 106  
+Ai : {0,1} 
+0 <= i <= (N-1) 
+Input Format: 
+First line contains N numbers {0,1} separated by comma 
+Output Format: 
+[Rearranged array elements] 
+Sample Input & Output: 
+Input: 
+0,1,1,0 
+Output: 
+[1,1,0,0] 
+------------------------------------------------------------------------------------------------------------
+58. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
