@@ -1081,7 +1081,151 @@ Input:
 Output: 
 [1,1,0,0] 
 ------------------------------------------------------------------------------------------------------------
-58. 
+58. Given a new element E, index I and array of numbers A of size N, write a program to insert the element E after the index I.  
+Constraints: 
+1 <= N <= 106
+1 <= E <= 106
+1 <= Ai <= 106
+0 <= i <= (N-1) 
+0 <= I <= (N-1) 
+ 
+Input Format: 
+First line contains the new element followed by #, followed by index followed by # and array elements separated by comma 
+Output Format: 
+[Array elements after inserting new element] 
+Sample Input & Output: 
+Input: 
+4#2#1,2,3,5,6,7,8 
+Output: 
+[1, 2, 3, 4, 5, 6, 7, 8] 
+ 
+Hint and Warning!
+Kindly take note that the insertion of an element should be within the range of the array
+Element cannot be inserted beyond the array index value
+------------------------------------------------------------------------------------------------------------
+59. Given a matrix M x N, write a program to find the max sum of elements of diagonal path.  
+Constraints: 
+1 <= N <= 106
+1 <= Mi,j <= 106
+0 <= i <= (N-1) 
+0 <= j <= (N-1) 
+ 
+Input Format: 
+First line contains the elements of matrix. Elements are separated by comma and rows are separated by # 
+Output Format: 
+Max sum of diagonal elements 
+ 
+Sample Input & Output: 
+Input: 
+8,4,3#9,0,1#6,10,0 
+Output: 
+19  
+------------------------------------------------------------------------------------------------------------
+60. Given 2 matrices M1, M2 of size N x N, write a program to find the product.  
+Constraints: 
+1 <= N <= 106
+1 <= M1i,j <= 106
+1 <= M2i,j <= 106
+0 <= i <= (N-1) 
+0 <= j <= (N-1) 
+Input Format: 
+First line contains n, elements of first matrix and second matrix separated by ‘@’. Matrix rows are separated by # where the elements are separated by comma.  
+Output Format: 
+[Product Matrix] 
+Sample Input & Output: 
+Input: 
+3@1,1,1#2,2,2#3,3,3@1,1,1#2,2,2#3,3,3 
+ 
+Output: 
+[[6, 6, 6], [12, 12, 12], [18, 18, 18]] 
+------------------------------------------------------------------------------------------------------------
+61. Given 2 arrays of numbers A1, A2 of size N, write a program to merge A1 and A2 such that, every alternate element is from same array. 
+Constraints: 
+1 <= N <= 106
+1 <= A1i <= 106
+1 <= A2i <= 106
+0 <= i <= (N-1) 
+Input Format: 
+First line contains the comma separated elements of A1 and A2. ‘#’ separates the 2 arrays.  
+Output Format: 
+[Merged Array] 
+Sample Input & Output: 
+Input: 
+1,3,5#2,4,6 
+Output: 
+[1,2,3,4,5,6] 
+------------------------------------------------------------------------------------------------------------
+62. Given an array A of N numbers, write a program to reverse the array.  
+Constraints: 
+1 <= N <= 106
+1 <= Ai <= 106
+0 <= i <= (N-1) 
+Input Format: 
+First line contains the elements of the array separated by comma 
+Output Format: 
+[Reversed Array] 
+Sample Input & Output: 
+Input: 
+1,3,5,2,6 
+Output: 
+[6,2,5,3,1] 
+------------------------------------------------------------------------------------------------------------
+63. Given an array A of N characters {a,b}, write a program to find the maximum length of contiguous subarray having equal number of a and b. 
+Constraints: 
+1 <= N <= 106
+Ai => {a,b} 
+0 <= i <= (N-1) 
+Input Format: 
+First line contains the elements of the array separated by comma 
+Output Format: 
+Max length 
+Sample Input & Output: 
+Input: 
+aba 
+Output: 
+2 
+------------------------------------------------------------------------------------------------------------
+64. Given an array A of N numbers, write a program to find the longest mountain subarray.  
+Constraints: 
+1 <= N <= 106
+1 <= Ai <= 106
+0 <= i <= (N-1) 
+Input Format: 
+First line contains the elements of the array separated by comma 
+Output Format: 
+Length of the longest mountain 
+Sample Input & Output: 
+Input: 
+1,2,3,4,2,1,0,1,2,1  
+Output: 
+7 
+------------------------------------------------------------------------------------------------------------
+65. Given two arrays A1 of N1 unique numbers and A2 of N2 unique numbers, write a program to find the number of common elements. 
+Constraints: 
+1 <= N1 <= 106 
+1 <= N2 <= 106
+1 <= A1i <= 106
+1 <= A2j <= 106
+0 <= i <= (N1-1) 
+0 <= j <= (N2-1) 
+ 
+Input Format: 
+First line contains elements of first array separated by comma, followed by ‘#’ and elements of second array. 
+Output Format: 
+Number of common elements 
+Sample Input & Output: 
+Input: 
+1,2,3,4#5,6,7,8,9,1 
+Output: 1 
+------------------------------------------------------------------------------------------------------------
+66. 
+
+
+
+
+
+
+
 
 
 
