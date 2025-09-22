@@ -21,8 +21,9 @@ public class _01_List {
 		System.out.println(l2);
 		l2.addAll(l);
 		System.out.println(l2);
-		l2.removeAll(l2);
-		System.out.println(l);
+//		l2.removeAll(l);
+		l2.retainAll(l);
+//		System.out.println(l2);
 		
 		/*
 		 * ArrayList l = new ArrayList(); l.add(10); l.add(20); l.add(30);

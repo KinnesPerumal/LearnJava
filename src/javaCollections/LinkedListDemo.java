@@ -11,6 +11,8 @@ public class LinkedListDemo {
 		ll.add(30);
 		ll.add("Kinnes");
 		System.out.println(ll);
+		ll.offerFirst(100);
+		System.out.println("offer-> "+ll);
 		ll.addFirst("ajay");
 		System.out.println("After Add First-> "+ll);
 		ll.addLast("bavya");
